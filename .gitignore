@@ -14,6 +14,9 @@
 *.sln.docstates
 
 /docs
+/documentation/api
+/documentation/tests
+
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
