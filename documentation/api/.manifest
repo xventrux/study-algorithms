@@ -1,8 +1,0 @@
-{
-  "Algorithms.Library": "Algorithms.Library.yml",
-  "Algorithms.Library.BinarySearcher`1": "Algorithms.Library.BinarySearcher-1.yml",
-  "Algorithms.Library.BinarySearcher`1.Search(`0[],`0)": "Algorithms.Library.BinarySearcher-1.yml",
-  "Algorithms.Library.Interfaces": "Algorithms.Library.Interfaces.yml",
-  "Algorithms.Library.Interfaces.ISearcher`1": "Algorithms.Library.Interfaces.ISearcher-1.yml",
-  "Algorithms.Library.Interfaces.ISearcher`1.Search(`0[],`0)": "Algorithms.Library.Interfaces.ISearcher-1.yml"
-}
