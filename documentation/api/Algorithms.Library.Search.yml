@@ -1,0 +1,42 @@
+### YamlMime:ManagedReference
+items:
+- uid: Algorithms.Library.Search
+  commentId: N:Algorithms.Library.Search
+  id: Algorithms.Library.Search
+  children:
+  - Algorithms.Library.Search.BinarySearcher`1
+  langs:
+  - csharp
+  - vb
+  name: Algorithms.Library.Search
+  nameWithType: Algorithms.Library.Search
+  fullName: Algorithms.Library.Search
+  type: Namespace
+  assemblies:
+  - Algorithms.Library
+references:
+- uid: Algorithms.Library.Search.BinarySearcher`1
+  commentId: T:Algorithms.Library.Search.BinarySearcher`1
+  href: Algorithms.Library.Search.BinarySearcher-1.html
+  name: BinarySearcher<TParam>
+  nameWithType: BinarySearcher<TParam>
+  fullName: Algorithms.Library.Search.BinarySearcher<TParam>
+  nameWithType.vb: BinarySearcher(Of TParam)
+  fullName.vb: Algorithms.Library.Search.BinarySearcher(Of TParam)
+  name.vb: BinarySearcher(Of TParam)
+  spec.csharp:
+  - uid: Algorithms.Library.Search.BinarySearcher`1
+    name: BinarySearcher
+    href: Algorithms.Library.Search.BinarySearcher-1.html
+  - name: <
+  - name: TParam
+  - name: '>'
+  spec.vb:
+  - uid: Algorithms.Library.Search.BinarySearcher`1
+    name: BinarySearcher
+    href: Algorithms.Library.Search.BinarySearcher-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TParam
+  - name: )

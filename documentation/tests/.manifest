@@ -1,0 +1,8 @@
+{
+  "Algorithms.Library.Tests": "Algorithms.Library.Tests.yml",
+  "Algorithms.Library.Tests.BinarySearcherTests": "Algorithms.Library.Tests.BinarySearcherTests.yml",
+  "Algorithms.Library.Tests.BinarySearcherTests.Search_NullArray_ThrowsException": "Algorithms.Library.Tests.BinarySearcherTests.yml",
+  "Algorithms.Library.Tests.BinarySearcherTests.Search_NullTarget_ThrowsException": "Algorithms.Library.Tests.BinarySearcherTests.yml",
+  "Algorithms.Library.Tests.BinarySearcherTests.Search_NumberInArray_Correct": "Algorithms.Library.Tests.BinarySearcherTests.yml",
+  "Algorithms.Library.Tests.BinarySearcherTests.Search_NumberNotExistInArray_NotFoundValue": "Algorithms.Library.Tests.BinarySearcherTests.yml"
+}

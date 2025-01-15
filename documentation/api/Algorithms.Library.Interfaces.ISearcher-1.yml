@@ -1,0 +1,171 @@
+### YamlMime:ManagedReference
+items:
+- uid: Algorithms.Library.Interfaces.ISearcher`1
+  commentId: T:Algorithms.Library.Interfaces.ISearcher`1
+  id: ISearcher`1
+  parent: Algorithms.Library.Interfaces
+  children:
+  - Algorithms.Library.Interfaces.ISearcher`1.Search(`0[],`0)
+  langs:
+  - csharp
+  - vb
+  name: ISearcher<TParam>
+  nameWithType: ISearcher<TParam>
+  fullName: Algorithms.Library.Interfaces.ISearcher<TParam>
+  type: Interface
+  source:
+    remote:
+      path: src/Algorithms.Library/Interfaces/ISearcher.cs
+      branch: main
+      repo: git@github.com:xventrux/study-algorithms.git
+    id: ISearcher
+    path: ../src/Algorithms.Library/Interfaces/ISearcher.cs
+    startLine: 7
+  assemblies:
+  - Algorithms.Library
+  namespace: Algorithms.Library.Interfaces
+  summary: Контракт, определяющий поиск.
+  example: []
+  syntax:
+    content: 'public interface ISearcher<in TParam> where TParam : IComparable<in TParam>'
+    typeParameters:
+    - id: TParam
+      description: Тип искомого значения.
+    content.vb: Public Interface ISearcher(Of In TParam As IComparable(Of In TParam))
+  nameWithType.vb: ISearcher(Of TParam)
+  fullName.vb: Algorithms.Library.Interfaces.ISearcher(Of TParam)
+  name.vb: ISearcher(Of TParam)
+- uid: Algorithms.Library.Interfaces.ISearcher`1.Search(`0[],`0)
+  commentId: M:Algorithms.Library.Interfaces.ISearcher`1.Search(`0[],`0)
+  id: Search(`0[],`0)
+  parent: Algorithms.Library.Interfaces.ISearcher`1
+  langs:
+  - csharp
+  - vb
+  name: Search(TParam[], TParam)
+  nameWithType: ISearcher<TParam>.Search(TParam[], TParam)
+  fullName: Algorithms.Library.Interfaces.ISearcher<TParam>.Search(TParam[], TParam)
+  type: Method
+  source:
+    remote:
+      path: src/Algorithms.Library/Interfaces/ISearcher.cs
+      branch: main
+      repo: git@github.com:xventrux/study-algorithms.git
+    id: Search
+    path: ../src/Algorithms.Library/Interfaces/ISearcher.cs
+    startLine: 16
+  assemblies:
+  - Algorithms.Library
+  namespace: Algorithms.Library.Interfaces
+  summary: Выполняет поиск.
+  example: []
+  syntax:
+    content: int Search(TParam[] array, TParam target)
+    parameters:
+    - id: array
+      type: '{TParam}[]'
+      description: Массив элементов, в котором нужно выполнить поиск.
+    - id: target
+      type: '{TParam}'
+    return:
+      type: System.Int32
+      description: Индекс найденного элемента.
+    content.vb: Function Search(array As TParam(), target As TParam) As Integer
+  overload: Algorithms.Library.Interfaces.ISearcher`1.Search*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: Вызывается, если передаваемый массив или искомое значение равны <code>null</code>.
+  nameWithType.vb: ISearcher(Of TParam).Search(TParam(), TParam)
+  fullName.vb: Algorithms.Library.Interfaces.ISearcher(Of TParam).Search(TParam(), TParam)
+  name.vb: Search(TParam(), TParam)
+references:
+- uid: Algorithms.Library.Interfaces
+  commentId: N:Algorithms.Library.Interfaces
+  href: Algorithms.html
+  name: Algorithms.Library.Interfaces
+  nameWithType: Algorithms.Library.Interfaces
+  fullName: Algorithms.Library.Interfaces
+  spec.csharp:
+  - uid: Algorithms
+    name: Algorithms
+    href: Algorithms.html
+  - name: .
+  - uid: Algorithms.Library
+    name: Library
+    href: Algorithms.Library.html
+  - name: .
+  - uid: Algorithms.Library.Interfaces
+    name: Interfaces
+    href: Algorithms.Library.Interfaces.html
+  spec.vb:
+  - uid: Algorithms
+    name: Algorithms
+    href: Algorithms.html
+  - name: .
+  - uid: Algorithms.Library
+    name: Library
+    href: Algorithms.Library.html
+  - name: .
+  - uid: Algorithms.Library.Interfaces
+    name: Interfaces
+    href: Algorithms.Library.Interfaces.html
+- uid: System.ArgumentNullException
+  commentId: T:System.ArgumentNullException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.argumentnullexception
+  name: ArgumentNullException
+  nameWithType: ArgumentNullException
+  fullName: System.ArgumentNullException
+- uid: Algorithms.Library.Interfaces.ISearcher`1.Search*
+  commentId: Overload:Algorithms.Library.Interfaces.ISearcher`1.Search
+  href: Algorithms.Library.Interfaces.ISearcher-1.html#Algorithms_Library_Interfaces_ISearcher_1_Search__0____0_
+  name: Search
+  nameWithType: ISearcher<TParam>.Search
+  fullName: Algorithms.Library.Interfaces.ISearcher<TParam>.Search
+  nameWithType.vb: ISearcher(Of TParam).Search
+  fullName.vb: Algorithms.Library.Interfaces.ISearcher(Of TParam).Search
+- uid: '{TParam}[]'
+  isExternal: true
+  name: TParam[]
+  nameWithType: TParam[]
+  fullName: TParam[]
+  nameWithType.vb: TParam()
+  fullName.vb: TParam()
+  name.vb: TParam()
+  spec.csharp:
+  - name: TParam
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - name: TParam
+  - name: (
+  - name: )
+- uid: '{TParam}'
+  commentId: '!:TParam'
+  definition: TParam
+  name: TParam
+  nameWithType: TParam
+  fullName: TParam
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: TParam
+  name: TParam
+  nameWithType: TParam
+  fullName: TParam
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

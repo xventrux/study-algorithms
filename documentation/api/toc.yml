@@ -1,0 +1,17 @@
+### YamlMime:TableOfContent
+items:
+- uid: Algorithms.Library
+  name: Algorithms.Library
+  type: Namespace
+  items:
+  - uid: Algorithms.Library.BinarySearcher`1
+    name: BinarySearcher<TParam>
+    type: Class
+- uid: Algorithms.Library.Interfaces
+  name: Algorithms.Library.Interfaces
+  type: Namespace
+  items:
+  - uid: Algorithms.Library.Interfaces.ISearcher`1
+    name: ISearcher<TParam>
+    type: Interface
+memberLayout: SamePage

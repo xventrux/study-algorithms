@@ -1,0 +1,42 @@
+### YamlMime:ManagedReference
+items:
+- uid: Algorithms.Library.Interfaces
+  commentId: N:Algorithms.Library.Interfaces
+  id: Algorithms.Library.Interfaces
+  children:
+  - Algorithms.Library.Interfaces.ISearcher`1
+  langs:
+  - csharp
+  - vb
+  name: Algorithms.Library.Interfaces
+  nameWithType: Algorithms.Library.Interfaces
+  fullName: Algorithms.Library.Interfaces
+  type: Namespace
+  assemblies:
+  - Algorithms.Library
+references:
+- uid: Algorithms.Library.Interfaces.ISearcher`1
+  commentId: T:Algorithms.Library.Interfaces.ISearcher`1
+  href: Algorithms.Library.Interfaces.ISearcher-1.html
+  name: ISearcher<TParam>
+  nameWithType: ISearcher<TParam>
+  fullName: Algorithms.Library.Interfaces.ISearcher<TParam>
+  nameWithType.vb: ISearcher(Of TParam)
+  fullName.vb: Algorithms.Library.Interfaces.ISearcher(Of TParam)
+  name.vb: ISearcher(Of TParam)
+  spec.csharp:
+  - uid: Algorithms.Library.Interfaces.ISearcher`1
+    name: ISearcher
+    href: Algorithms.Library.Interfaces.ISearcher-1.html
+  - name: <
+  - name: TParam
+  - name: '>'
+  spec.vb:
+  - uid: Algorithms.Library.Interfaces.ISearcher`1
+    name: ISearcher
+    href: Algorithms.Library.Interfaces.ISearcher-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TParam
+  - name: )
