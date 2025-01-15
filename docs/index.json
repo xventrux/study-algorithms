@@ -1,0 +1,52 @@
+{
+  "api/Algorithms.Library.BinarySearcher-1.html": {
+    "href": "api/Algorithms.Library.BinarySearcher-1.html",
+    "title": "Class BinarySearcher<TParam> | Algorithms",
+    "keywords": "Class BinarySearcher<TParam> Namespace Algorithms.Library Assembly Algorithms.Library.dll Реализация бинарного поиска. public class BinarySearcher<TParam> : ISearcher<TParam> where TParam : IComparable<TParam> Type Parameters TParam Inheritance object BinarySearcher<TParam> Implements ISearcher<TParam> Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods Search(TParam[], TParam) Выполняет бинарный поиск. public int Search(TParam[] sortedArray, TParam target) Parameters sortedArray TParam[] Отсортированный по возрастанию массив чисел. target TParam Returns int Индекс найденного элемента, или -1 если элемент не найден. Remarks Сложность O(ln(n)). Exceptions ArgumentNullException Вызывается, если передаваемый массив или искомое значение равны null."
+  },
+  "api/Algorithms.Library.Interfaces.ISearcher-1.html": {
+    "href": "api/Algorithms.Library.Interfaces.ISearcher-1.html",
+    "title": "Interface ISearcher<TParam> | Algorithms",
+    "keywords": "Interface ISearcher<TParam> Namespace Algorithms.Library.Interfaces Assembly Algorithms.Library.dll Контракт, определяющий поиск. public interface ISearcher<in TParam> where TParam : IComparable<in TParam> Type Parameters TParam Тип искомого значения. Methods Search(TParam[], TParam) Выполняет поиск. int Search(TParam[] array, TParam target) Parameters array TParam[] Массив элементов, в котором нужно выполнить поиск. target TParam Returns int Индекс найденного элемента. Exceptions ArgumentNullException Вызывается, если передаваемый массив или искомое значение равны null."
+  },
+  "api/Algorithms.Library.Interfaces.html": {
+    "href": "api/Algorithms.Library.Interfaces.html",
+    "title": "Namespace Algorithms.Library.Interfaces | Algorithms",
+    "keywords": "Namespace Algorithms.Library.Interfaces Interfaces ISearcher<TParam> Контракт, определяющий поиск."
+  },
+  "api/Algorithms.Library.html": {
+    "href": "api/Algorithms.Library.html",
+    "title": "Namespace Algorithms.Library | Algorithms",
+    "keywords": "Namespace Algorithms.Library Classes BinarySearcher<TParam> Реализация бинарного поиска."
+  },
+  "docs/binary-search.html": {
+    "href": "docs/binary-search.html",
+    "title": "Binary search | Algorithms",
+    "keywords": "Binary search Описание Бинарный поиск гораздо более эффективный в сравнении с линейным поиском. Бинарный поиск основан на идее деления данных на половины и последующем поиске в одной из них с последующим делением. Визуализация Код на c# public class BinarySearcher<TParam> : ISearcher<TParam> where TParam : IComparable<TParam> { private const int _notFoundValue = -1; public int Search(TParam[] sortedArray, TParam target) { ValidateInput(sortedArray, target); int left = 0; int right = sortedArray.Length - 1; while (left <= right) { int mid = GetMiddleNumber(left, right); int comparison = sortedArray[mid].CompareTo(target); if (comparison == 0) { return mid; } else if (comparison < 0) { left = mid + 1; } else { right = mid - 1; } } return _notFoundValue; } private void ValidateInput(TParam[] sortedArray, TParam target) { if (sortedArray is null) throw new ArgumentNullException(nameof(sortedArray)); if (target is null) throw new ArgumentNullException(nameof(target)); } private int GetMiddleNumber(int left, int right) => left + (right - left) / 2; }"
+  },
+  "docs/introduction.html": {
+    "href": "docs/introduction.html",
+    "title": "Introduction | Algorithms",
+    "keywords": "Introduction О проекте Данный проект представляет собой учебный набор библиотек для изучения алгоритмов и структур данных. Основная цель проекта — академическая, собрать в себе как можно больше алгоритмов и структур данных для исследований. Большинство из написанного я уже знаю, но добавлю для освежения памяти и полноты картины. Основные алгоритмы Проект включает в себя следующие алгоритмы: Бинарный поиск: тип поискового алгоритма, который последовательно делит пополам заранее отсортированный массив данных, чтобы обнаружить нужный элемент. В данном проекте используются библиотеки, включая, но не ограничиваясь: Algorithms.Library: содрежит в себе классы для реализации различных алгоритмов. Algorithms.Library.Tests: содержит в себе тесты алгоритмов. Цели разработки проекта Данный проект разрабатывается исключительно в учебных целях. Он предназначен для изучения алгоритмов и структур данных. В процессе работы над проектом я стремлюсь: Практика оценки сложности алгоритмов. Практика применения новых алгоритмов и структур данных. Развивать навыки программирования: углубить знания и навыки в C# и проектировании информационных систем. Улучшить подходы к тестированию: научиться тестировать алгоритмы и обеспечивать их надежность. Проект является лабораторной работой для получения навыков, необходимых для будущей карьеры в разработке, и не предназначен для коммерческого использования."
+  },
+  "docs/quick-start.html": {
+    "href": "docs/quick-start.html",
+    "title": "Quick Start | Algorithms",
+    "keywords": "Quick Start Установка и запуск Для быстрого старта и локальной разработки, выполните следующие шаги: Клонируйте репозиторий: git clone git@github.com:xventrux/study-algorithms.git Перейдите в каталог проекта: cd study-algorithms"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "This is the HOMEPAGE. | Algorithms",
+    "keywords": "This is the HOMEPAGE. Refer to Markdown for how to write markdown files. Quick Start Notes: Add images to the images folder if the file is referencing an image."
+  },
+  "tests/Algorithms.Library.Tests.BinarySearcherTests.html": {
+    "href": "tests/Algorithms.Library.Tests.BinarySearcherTests.html",
+    "title": "Class BinarySearcherTests | Algorithms",
+    "keywords": "Class BinarySearcherTests Namespace Algorithms.Library.Tests Assembly Algorithms.Library.Tests.dll public class BinarySearcherTests Inheritance object BinarySearcherTests Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods Search_NullArray_ThrowsException() Поиск числа в массиве. Ожидается ArgumentNullException, при массиве равном null. [Test] public void Search_NullArray_ThrowsException() Search_NullTarget_ThrowsException() Поиск числа в массиве. Ожидается ArgumentNullException, при искомом элементе равном null. [Test] public void Search_NullTarget_ThrowsException() Search_NumberInArray_Correct() Поиск числа в массиве. Ожидается правильный результат, при наличии числа в массиве. [Test] public void Search_NumberInArray_Correct() Search_NumberNotExistInArray_NotFoundValue() Поиск числа в массиве. Ожидается -1, при поиске несуществующего в массиве числа. [Test] public void Search_NumberNotExistInArray_NotFoundValue()"
+  },
+  "tests/Algorithms.Library.Tests.html": {
+    "href": "tests/Algorithms.Library.Tests.html",
+    "title": "Namespace Algorithms.Library.Tests | Algorithms",
+    "keywords": "Namespace Algorithms.Library.Tests Classes BinarySearcherTests"
+  }
+}

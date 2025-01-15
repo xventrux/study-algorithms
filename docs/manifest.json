@@ -1,0 +1,181 @@
+{
+  "source_base_path": "C:/Git/Algorithms/documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Algorithms.Library.BinarySearcher-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Algorithms.Library.BinarySearcher-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Algorithms.Library.Interfaces.ISearcher-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Algorithms.Library.Interfaces.ISearcher-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Algorithms.Library.Interfaces.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Algorithms.Library.Interfaces.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Algorithms.Library.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Algorithms.Library.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/binary-search.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/binary-search.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/quick-start.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/quick-start.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/binary-search.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/binary-search.gif"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "tests/Algorithms.Library.Tests.BinarySearcherTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "tests/Algorithms.Library.Tests.BinarySearcherTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "tests/Algorithms.Library.Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "tests/Algorithms.Library.Tests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "tests/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "tests/toc.html"
+        },
+        ".json": {
+          "relative_path": "tests/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

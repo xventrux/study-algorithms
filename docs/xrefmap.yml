@@ -1,0 +1,133 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Algorithms.Library
+  name: Algorithms.Library
+  href: api/Algorithms.Library.html
+  commentId: N:Algorithms.Library
+  fullName: Algorithms.Library
+  nameWithType: Algorithms.Library
+- uid: Algorithms.Library.BinarySearcher`1
+  name: BinarySearcher<TParam>
+  href: api/Algorithms.Library.BinarySearcher-1.html
+  commentId: T:Algorithms.Library.BinarySearcher`1
+  name.vb: BinarySearcher(Of TParam)
+  fullName: Algorithms.Library.BinarySearcher<TParam>
+  fullName.vb: Algorithms.Library.BinarySearcher(Of TParam)
+  nameWithType: BinarySearcher<TParam>
+  nameWithType.vb: BinarySearcher(Of TParam)
+- uid: Algorithms.Library.BinarySearcher`1.Search(`0[],`0)
+  name: Search(TParam[], TParam)
+  href: api/Algorithms.Library.BinarySearcher-1.html#Algorithms_Library_BinarySearcher_1_Search__0____0_
+  commentId: M:Algorithms.Library.BinarySearcher`1.Search(`0[],`0)
+  name.vb: Search(TParam(), TParam)
+  fullName: Algorithms.Library.BinarySearcher<TParam>.Search(TParam[], TParam)
+  fullName.vb: Algorithms.Library.BinarySearcher(Of TParam).Search(TParam(), TParam)
+  nameWithType: BinarySearcher<TParam>.Search(TParam[], TParam)
+  nameWithType.vb: BinarySearcher(Of TParam).Search(TParam(), TParam)
+- uid: Algorithms.Library.BinarySearcher`1.Search*
+  name: Search
+  href: api/Algorithms.Library.BinarySearcher-1.html#Algorithms_Library_BinarySearcher_1_Search_
+  commentId: Overload:Algorithms.Library.BinarySearcher`1.Search
+  isSpec: "True"
+  fullName: Algorithms.Library.BinarySearcher<TParam>.Search
+  fullName.vb: Algorithms.Library.BinarySearcher(Of TParam).Search
+  nameWithType: BinarySearcher<TParam>.Search
+  nameWithType.vb: BinarySearcher(Of TParam).Search
+- uid: Algorithms.Library.Interfaces
+  name: Algorithms.Library.Interfaces
+  href: api/Algorithms.Library.Interfaces.html
+  commentId: N:Algorithms.Library.Interfaces
+  fullName: Algorithms.Library.Interfaces
+  nameWithType: Algorithms.Library.Interfaces
+- uid: Algorithms.Library.Interfaces.ISearcher`1
+  name: ISearcher<TParam>
+  href: api/Algorithms.Library.Interfaces.ISearcher-1.html
+  commentId: T:Algorithms.Library.Interfaces.ISearcher`1
+  name.vb: ISearcher(Of TParam)
+  fullName: Algorithms.Library.Interfaces.ISearcher<TParam>
+  fullName.vb: Algorithms.Library.Interfaces.ISearcher(Of TParam)
+  nameWithType: ISearcher<TParam>
+  nameWithType.vb: ISearcher(Of TParam)
+- uid: Algorithms.Library.Interfaces.ISearcher`1.Search(`0[],`0)
+  name: Search(TParam[], TParam)
+  href: api/Algorithms.Library.Interfaces.ISearcher-1.html#Algorithms_Library_Interfaces_ISearcher_1_Search__0____0_
+  commentId: M:Algorithms.Library.Interfaces.ISearcher`1.Search(`0[],`0)
+  name.vb: Search(TParam(), TParam)
+  fullName: Algorithms.Library.Interfaces.ISearcher<TParam>.Search(TParam[], TParam)
+  fullName.vb: Algorithms.Library.Interfaces.ISearcher(Of TParam).Search(TParam(), TParam)
+  nameWithType: ISearcher<TParam>.Search(TParam[], TParam)
+  nameWithType.vb: ISearcher(Of TParam).Search(TParam(), TParam)
+- uid: Algorithms.Library.Interfaces.ISearcher`1.Search*
+  name: Search
+  href: api/Algorithms.Library.Interfaces.ISearcher-1.html#Algorithms_Library_Interfaces_ISearcher_1_Search_
+  commentId: Overload:Algorithms.Library.Interfaces.ISearcher`1.Search
+  isSpec: "True"
+  fullName: Algorithms.Library.Interfaces.ISearcher<TParam>.Search
+  fullName.vb: Algorithms.Library.Interfaces.ISearcher(Of TParam).Search
+  nameWithType: ISearcher<TParam>.Search
+  nameWithType.vb: ISearcher(Of TParam).Search
+- uid: Algorithms.Library.Tests
+  name: Algorithms.Library.Tests
+  href: tests/Algorithms.Library.Tests.html
+  commentId: N:Algorithms.Library.Tests
+  fullName: Algorithms.Library.Tests
+  nameWithType: Algorithms.Library.Tests
+- uid: Algorithms.Library.Tests.BinarySearcherTests
+  name: BinarySearcherTests
+  href: tests/Algorithms.Library.Tests.BinarySearcherTests.html
+  commentId: T:Algorithms.Library.Tests.BinarySearcherTests
+  fullName: Algorithms.Library.Tests.BinarySearcherTests
+  nameWithType: BinarySearcherTests
+- uid: Algorithms.Library.Tests.BinarySearcherTests.Search_NullArray_ThrowsException
+  name: Search_NullArray_ThrowsException()
+  href: tests/Algorithms.Library.Tests.BinarySearcherTests.html#Algorithms_Library_Tests_BinarySearcherTests_Search_NullArray_ThrowsException
+  commentId: M:Algorithms.Library.Tests.BinarySearcherTests.Search_NullArray_ThrowsException
+  fullName: Algorithms.Library.Tests.BinarySearcherTests.Search_NullArray_ThrowsException()
+  nameWithType: BinarySearcherTests.Search_NullArray_ThrowsException()
+- uid: Algorithms.Library.Tests.BinarySearcherTests.Search_NullArray_ThrowsException*
+  name: Search_NullArray_ThrowsException
+  href: tests/Algorithms.Library.Tests.BinarySearcherTests.html#Algorithms_Library_Tests_BinarySearcherTests_Search_NullArray_ThrowsException_
+  commentId: Overload:Algorithms.Library.Tests.BinarySearcherTests.Search_NullArray_ThrowsException
+  isSpec: "True"
+  fullName: Algorithms.Library.Tests.BinarySearcherTests.Search_NullArray_ThrowsException
+  nameWithType: BinarySearcherTests.Search_NullArray_ThrowsException
+- uid: Algorithms.Library.Tests.BinarySearcherTests.Search_NullTarget_ThrowsException
+  name: Search_NullTarget_ThrowsException()
+  href: tests/Algorithms.Library.Tests.BinarySearcherTests.html#Algorithms_Library_Tests_BinarySearcherTests_Search_NullTarget_ThrowsException
+  commentId: M:Algorithms.Library.Tests.BinarySearcherTests.Search_NullTarget_ThrowsException
+  fullName: Algorithms.Library.Tests.BinarySearcherTests.Search_NullTarget_ThrowsException()
+  nameWithType: BinarySearcherTests.Search_NullTarget_ThrowsException()
+- uid: Algorithms.Library.Tests.BinarySearcherTests.Search_NullTarget_ThrowsException*
+  name: Search_NullTarget_ThrowsException
+  href: tests/Algorithms.Library.Tests.BinarySearcherTests.html#Algorithms_Library_Tests_BinarySearcherTests_Search_NullTarget_ThrowsException_
+  commentId: Overload:Algorithms.Library.Tests.BinarySearcherTests.Search_NullTarget_ThrowsException
+  isSpec: "True"
+  fullName: Algorithms.Library.Tests.BinarySearcherTests.Search_NullTarget_ThrowsException
+  nameWithType: BinarySearcherTests.Search_NullTarget_ThrowsException
+- uid: Algorithms.Library.Tests.BinarySearcherTests.Search_NumberInArray_Correct
+  name: Search_NumberInArray_Correct()
+  href: tests/Algorithms.Library.Tests.BinarySearcherTests.html#Algorithms_Library_Tests_BinarySearcherTests_Search_NumberInArray_Correct
+  commentId: M:Algorithms.Library.Tests.BinarySearcherTests.Search_NumberInArray_Correct
+  fullName: Algorithms.Library.Tests.BinarySearcherTests.Search_NumberInArray_Correct()
+  nameWithType: BinarySearcherTests.Search_NumberInArray_Correct()
+- uid: Algorithms.Library.Tests.BinarySearcherTests.Search_NumberInArray_Correct*
+  name: Search_NumberInArray_Correct
+  href: tests/Algorithms.Library.Tests.BinarySearcherTests.html#Algorithms_Library_Tests_BinarySearcherTests_Search_NumberInArray_Correct_
+  commentId: Overload:Algorithms.Library.Tests.BinarySearcherTests.Search_NumberInArray_Correct
+  isSpec: "True"
+  fullName: Algorithms.Library.Tests.BinarySearcherTests.Search_NumberInArray_Correct
+  nameWithType: BinarySearcherTests.Search_NumberInArray_Correct
+- uid: Algorithms.Library.Tests.BinarySearcherTests.Search_NumberNotExistInArray_NotFoundValue
+  name: Search_NumberNotExistInArray_NotFoundValue()
+  href: tests/Algorithms.Library.Tests.BinarySearcherTests.html#Algorithms_Library_Tests_BinarySearcherTests_Search_NumberNotExistInArray_NotFoundValue
+  commentId: M:Algorithms.Library.Tests.BinarySearcherTests.Search_NumberNotExistInArray_NotFoundValue
+  fullName: Algorithms.Library.Tests.BinarySearcherTests.Search_NumberNotExistInArray_NotFoundValue()
+  nameWithType: BinarySearcherTests.Search_NumberNotExistInArray_NotFoundValue()
+- uid: Algorithms.Library.Tests.BinarySearcherTests.Search_NumberNotExistInArray_NotFoundValue*
+  name: Search_NumberNotExistInArray_NotFoundValue
+  href: tests/Algorithms.Library.Tests.BinarySearcherTests.html#Algorithms_Library_Tests_BinarySearcherTests_Search_NumberNotExistInArray_NotFoundValue_
+  commentId: Overload:Algorithms.Library.Tests.BinarySearcherTests.Search_NumberNotExistInArray_NotFoundValue
+  isSpec: "True"
+  fullName: Algorithms.Library.Tests.BinarySearcherTests.Search_NumberNotExistInArray_NotFoundValue
+  nameWithType: BinarySearcherTests.Search_NumberNotExistInArray_NotFoundValue
